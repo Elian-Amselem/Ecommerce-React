@@ -8,7 +8,7 @@ return (
             <img className="card_bg-image" src={background_image} alt={name} />
         </div>
         <div className="card_data">
-            <h2>Name: {name}</h2>
+            <h2>{name}</h2>
             <h3>⭐Rating: {rating_top}</h3>
             <p>💬Reviews count: {reviews_count}</p>
             <p>Released: {released}</p>

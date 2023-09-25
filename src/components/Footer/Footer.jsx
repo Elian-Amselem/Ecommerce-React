@@ -12,7 +12,7 @@ function Footer() {
                 <p>Derechos Reservados ©️2023</p>
                 <br />
                 <div className="container">
-                    <div className="card">
+                    <div className="cards">
                         <img src={walter} alt="Walter" />
                         <h4>Walter Coronel</h4>
                         <p>Programador Web Full Stack JR</p>
@@ -28,7 +28,7 @@ function Footer() {
                             </a>
                         </div>
                     </div>
-                    <div className="card">
+                    <div className="cards">
                         <img src={elian} alt="elian" />
                         <h4>Elian Amselem</h4>
                         <p>Programador Web Full Stack JR</p>
@@ -45,7 +45,7 @@ function Footer() {
                         </div>
                         
                     </div>
-                    <div className="card">
+                    <div className="cards">
                         <img src={franco} alt="franco" />
                         <h4>Franco Ruiz</h4>
                         <p>Programador Web Full Stack JR</p>

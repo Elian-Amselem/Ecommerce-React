@@ -320,12 +320,11 @@ input::-webkit-inner-spin-button {
 
 /* ---------------------- FRANCO RUIZ ---------------------- */
 footer{
-    /* margin-bottom: 50px; */
     border-top: 2px solid #e58e27;
     border-bottom: 2px solid #e58e27;
     background-color: black;
     overflow: hidden;
-    padding-top: 40px;
+    padding-top: 50px;
 }
 
 footer p{
@@ -335,7 +334,7 @@ footer p{
 }
 
 .container{
-    width: 100%;
+    width: 80%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -343,8 +342,8 @@ footer p{
     margin: auto;
 }
 
-.container .card{
-    width: 220px;
+.container .cards{
+    width: 200px;
     height: auto;
     border-radius: 10px;
     overflow: hidden;
@@ -353,34 +352,34 @@ footer p{
     transition: all 0.25s;
 }
 
-.container .card:hover{
+.container .cards:hover{
     transform: translateY(-15px);
     background: linear-gradient(to right, #2E1760, #2c3e50);
     box-shadow: 0 12px 20px rgba(248, 248, 248, 0.986);
 }
 
-.container .card img{
+.container .cards img{
     margin: 10px 0px;
     border-radius: 20px;
     width: 80%;
     height: auto;
 }
 
-.container .card h4{
-    font-weight: 600;
+.container .cards h4{
+    font-weight: 400;
     font-size: 18px;
     color: white;
     padding-bottom: 10px;
 }
 
-.container .card p{
+.container .cards p{
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 200;
 }
 
-.container .card .redes{
+.container .cards .redes{
     background-color: #e58e27;
-    border-radius: 5px;
+    border-radius: 15px;
     height: auto;
     margin: 20px 5px;
     width: auto;
@@ -389,9 +388,40 @@ footer p{
     text-align: center;
 }
 
-.container .card i{
+.container .cards i{
     color: black;
     font-size: 30px;
+}
+
+/* contacto*/
+
+
+.card{
+    width: 315px;
+    margin: 10px;
+    text-align: center;
+    
+}
+.container .card .redes{
+    background-color: #e58e27;
+    border-radius: 15px;
+    height: auto;
+    margin: 20px 5px;
+    width: auto;
+    align-items: center;
+    font-weight: 600;
+    text-align: center;
+}
+.container .card h4{
+    font-weight: 400;
+    font-size: 40px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.container .card p{
+    font-size: 25px;
+    font-weight: 200;
 }
 
 
