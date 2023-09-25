@@ -1,0 +1,30 @@
+main{
+    gap: 2rem;
+    margin: 2rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    border: 2px solid #181818;
+    border-radius: 2rem;
+    row-gap: 1.5rem;
+    background-color: #202020;
+}
+
+.card_img{
+    width: 100%;
+    height: 12rem;
+}
+
+.card_bg-image{
+    border-radius: 2rem;
+    width:100%;
+    height: 100%;
+}
+
+.card_data{
+    outline: 3px solid red;
+}

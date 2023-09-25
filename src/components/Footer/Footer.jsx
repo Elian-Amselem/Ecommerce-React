@@ -1,9 +1,9 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-import walter from "../../assets/img/walter.jpg";
-import elian from "../../assets/img/elian.jpg";
-import franco from "../../assets/img/franco.jpg";
+import walter from "../../assets/multimedia/img/walter.jpg";
+import elian from "../../assets/multimedia/img/elian.jpg";
+import franco from "../../assets/multimedia/img/franco.jpg";
 
 function Footer() {
     return (

@@ -1,13 +1,15 @@
 import './App.css'
-import React from 'react';
-import HomePage from './components/HomePage';
+import Header from './components/Header/Header';
+import Direction from './components/Routes/Direction';
+import { Router } from 'react-router-dom';
 
 function App() {
-  return (
+return (
     <>
-    <HomePage/>
+        <Header/>
+        <Direction/>
     </>
-  );
+);
 }
 
 export default App;

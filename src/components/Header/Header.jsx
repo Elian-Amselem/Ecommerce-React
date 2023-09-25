@@ -1,12 +1,9 @@
-import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faCartShopping } from '@fortawesome/free-solid-svg-icons'; 
-
-import logo from "../../assets/img/Logo/logo.png";
+import logo from "../../assets/multimedia/removebg/ideogram1.png";
 
 function Header() {
     return (
-        <div>
             <header>
                 <img className="logo" src={logo} alt="Logo de VicioGames" />
                 <h1 className="titulo">VicioGames</h1>
@@ -15,7 +12,6 @@ function Header() {
                     <a href="#"><FontAwesomeIcon icon={faCartShopping} /></a>
                 </div>
             </header>
-        </div>
     );
 }
 
