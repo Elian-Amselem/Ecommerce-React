@@ -1,7 +1,10 @@
+Aa
 import { BrowserRouter as Router,Route,Routes,Link } from 'react-router-dom'
-import Contacto from '../Contacto/Contacto'
+import Contacto from
+ '../Contacto/Contacto'
 import NotFound from '../NotFound/NotFound'
 import Home from '../Home/Home'
+
 function Direction() {
 return (
     // Enrutamiento
@@ -24,4 +27,5 @@ return (
     </Router>
 )
 }
+
 export default Direction;
