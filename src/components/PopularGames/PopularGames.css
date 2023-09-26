@@ -1,9 +1,9 @@
-main{
+main {
     gap: 2rem;
     margin: 2rem;
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,14 +14,69 @@ main{
     background-color: #202020;
 }
 
-.card_img{
+.card_img {
     width: 100%;
     height: 12rem;
 }
 
-.card_bg-image{
+.card_bg-image {
     border-radius: 2rem;
-    width:100%;
+    width: 100%;
     height: 100%;
 }
 
+@media (max-width: 501px) {
+    main {
+        display: grid;
+        gap: 120px;
+    }
+
+    .card {
+        grid-column: span 4 / -span 2 ;
+        margin-right: 60px ;
+        /* height: 90%;
+        gap: 40px 0; */
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 1rem;
+        border: 2px solid #181818;
+        border-radius: 2rem;
+        row-gap: 1.5rem;
+        background-color: #202020;
+        
+    }
+
+    .card_img {
+        width: 0%;
+        height: 12rem;
+    }
+
+    .card_bg-image {
+        border-radius: 2rem;
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-width: 801px) {
+    main {
+        display: grid;
+        gap: 1px,
+    }
+
+    .card {
+
+        /* height: 90%;
+        gap: 40px 0; */
+        border: 2px solid #181818;
+        border-radius: 2rem;
+        background-color: #202020;
+        
+    }
+
+    .card_img {
+        width: 100%;
+        height: 8rem;
+        
+    }
+
+}

@@ -8,12 +8,12 @@ function Direction() {
 return (
     // Enrutamiento
     <Router>
-        <nav>
+        <nav className='navbar'>
             <ul>
-                <li>
+                <li className='divicion'>
                     <Link to='/'>Home</Link>
                 </li>
-                <li>
+                <li className='divicion'>
                     <Link to='/contacto'>Contacto</Link>
                 </li>
             </ul>

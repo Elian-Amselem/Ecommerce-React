@@ -10,7 +10,7 @@ function Contacto() {
       <h2>Necesitas contactarme?  aca estaContacto</h2>
       <br />
       <div className="container">
-        <div className="card">
+        <div className="card2">
           <img src={walter} alt="Walter" />
           <h4>Walter Coronel</h4>
           <p>Programador Web Full Stack JR</p>
@@ -26,7 +26,7 @@ function Contacto() {
             </a>
           </div>
         </div>
-        <div className="card">
+        <div className="card2">
           <img src={elian} alt="elian" />
           <h4>Elian Amselem</h4>
           <p>Programador Web Full Stack JR</p>
@@ -42,7 +42,7 @@ function Contacto() {
             </a>
           </div>
         </div>
-        <div className="card">
+        <div className="card2">
           <img src={franco} alt="franco" />
           <h4>Franco Ruiz</h4>
           <p>Programador Web Full Stack JR</p>
