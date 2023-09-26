@@ -1,6 +1,9 @@
 main {
     gap: 2rem;
     margin: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 1rem;
 }
 
 .card {
@@ -16,7 +19,8 @@ main {
 
 .card_img {
     width: 100%;
-    height: 12rem;
+    height: 15rem;
+    cursor: pointer;
 }
 
 .card_bg-image {
@@ -25,41 +29,48 @@ main {
     height: 100%;
 }
 
+
+.card_data > h2{
+    font-size: 1.4rem;
+    cursor: pointer;
+    text-align: center;
+    margin: 0;
+}
+
+.card_data-extras{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between 
+}
+
 @media (max-width: 501px) {
     main {
         display: grid;
-        gap: 120px;
+        grid-template-columns: 1fr;
     }
 
     .card {
-        grid-column: span 4 / -span 2 ;
+        grid-column: span 15 / -span 2 ;
         margin-right: 60px ;
-        /* height: 90%;
-        gap: 40px 0; */
-        flex-wrap: wrap;
-        justify-content: center;
-        padding: 1rem;
+        height: 25rem;
         border: 2px solid #181818;
         border-radius: 2rem;
-        row-gap: 1.5rem;
         background-color: #202020;
         
     }
 
-    .card_img {
-        width: 0%;
-        height: 12rem;
-    }
-
-    .card_bg-image {
-        border-radius: 2rem;
-        width: 100%;
+    .card_img > img{
         height: 100%;
     }
+
+    
 }
+
+
 @media (max-width: 801px) {
     main {
         display: grid;
+        grid-template-columns: 1fr 1fr;
         gap: 1px,
     }
 
@@ -79,4 +90,12 @@ main {
         
     }
 
+}
+
+.card_meta-critic{
+    font-size: .8rem;
+    color: rgb(0, 255, 0);
+    border: 1px solid rgb(0, 255, 0, .6);
+    padding: .4rem;
+    border-radius: .5rem;
 }

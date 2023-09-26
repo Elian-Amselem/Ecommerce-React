@@ -7,6 +7,11 @@
 }
 
 .pagination > button{
-    padding: 1rem 2rem;
-    font-size: 1.3rem;
+    cursor: pointer;
+    padding: .8rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: #000;
+    color: #fff;
 }

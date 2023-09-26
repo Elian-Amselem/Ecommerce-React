@@ -1,3 +1,4 @@
+import './Home.css'
 import React, { useEffect, useState } from 'react'
 import PopularGames from '../PopularGames/PopularGames';
 import Pagination from '../Pagination/Pagination';
@@ -33,7 +34,9 @@ return (
             
             {
                 popularGames ? popularGames.map((games) => <PopularGames key={games.id} {...games} />)
-                : <p>Cargando...</p>
+                :   <div class="glitch-wrapper">
+                        <div class="glitch" data-glitch="Loading">Loading...</div>
+                    </div>
             }
             
         </main>

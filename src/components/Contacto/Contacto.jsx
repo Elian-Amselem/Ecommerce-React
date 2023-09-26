@@ -1,4 +1,4 @@
-import React from "react";
+import './Contacto.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import walter from "../../assets/multimedia/img/walter.jpg";
@@ -7,7 +7,7 @@ import franco from "../../assets/multimedia/img/franco.jpg";
 function Contacto() {
   return (
     <div>
-      <h2>Necesitas contactarme?  aca estaContacto</h2>
+      <h2 className='subtittle__contact'>¿Necesitas contactarnos?</h2>
       <br />
       <div className="container">
         <div className="card">
