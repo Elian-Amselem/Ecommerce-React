@@ -1,11 +1,11 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-:root{
-    --primary-font: font-family: 'Inter', 'VT323',sans-serif;
+:root {
+    --primary-font: font-family: 'Inter', 'VT323', sans-serif;
     --main-bg-color: #161a1e;
     --card-bg-color: #9a9a9a50;
     --card-font-color: #fbfbfb90;
@@ -13,7 +13,7 @@
     --subtitle-color: #fbfbfb;
 }
 
-body{
+body {
     /* font-family: 'VT323'; */
     font-family: var(--primary-font);
     /* background-color: var(--main-bg-color); */
@@ -26,20 +26,20 @@ body{
 
 /* ---------------------- WALTER CORONEL ---------------------- */
 
-header{
+header {
     background-color: black;
     display: flex;
     height: 150px;
     width: 100%;
 }
 
-.logo{
+.logo {
     height: 100%;
-    width: 20%;
+    width: 17%;
     margin: 0px 10px;
 }
 
-.titulo{
+.titulo {
     text-align: center;
     width: 60%;
     color: white;
@@ -47,21 +47,21 @@ header{
     font-size: 45px;
 }
 
-header div{
+header div {
     width: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.iconos a{
+.iconos a {
     font-size: 25px;
     padding: 5px;
     color: white;
     margin: 18px 5px;
 }
 
-.iconos a:hover{
+.iconos a:hover {
     transition: 0.25s;
     transform: scale(1.1);
     background: linear-gradient(to right, #2E1760, #2c3e50);
@@ -69,24 +69,29 @@ header div{
     padding: 5px;
 }
 
-nav{
-    height: auto;
-    display: flex;
-    margin: 15px 0px;
-    padding: 15px 5px;
-    justify-content: center;
-    border-radius: 5px;
-    background-color: black;
+.navbar{ 
+    display: flex; 
+    margin: 15px 0px; 
+    padding: 15px 5px; 
+    justify-content: center; 
+    border-radius: 5px; 
+    background-color: black; 
+} 
+.navbar .divicion{
+    margin-right: 30px;
 }
-
-nav a{
-    font-size: 14px;
-    margin: 5px 10px;
+.navbar ul{
+    display: flex;
+    align-items: flex-start;
+    list-style-type: none
+}
+.navbar a {
+    font-size: 20px;
     color: white;
     text-decoration: none;
 }
 
-nav a:hover{
+.navbar a:hover {
     transition: 0.25s;
     transform: scale(1.1);
     background: linear-gradient(to right, #2E1760, #2c3e50);
@@ -96,7 +101,7 @@ nav a:hover{
 
 /* ---------------------- ELIAN AMSELEM ---------------------- */
 
-main{
+main {
     /* height: 100vh; */
     width: 95%;
     margin: 0 auto;
@@ -105,221 +110,8 @@ main{
     /* grid-template-rows: repeat(1, 1fr); */
 }
 
-/* Aside */
-aside{
-    grid-column: 1 / 2;
-    grid-row: 2 / 5;
-}
-
-.aside__fieldset{
-    margin-top: -5%;
-    border-radius: 12px;
-    width: 100%;
-    height: 100%;
-    accent-color: var(--btn-bg-color);
-    padding: 15px;
-    border: 2.5px solid var(--btn-bg-color);
-    box-shadow: 6px 6px 15px #000;
-}
-
-legend{
-    width: 150px;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 400;
-    border: 1px solid var(--btn-bg-color);
-    border-radius: 10px;
-    /* background-color: var(--main-bg-color); */
-}
-
-h3{
-    font-weight: 900;
-}
-
-.aside__subtitle{
-    margin-top: 15%;
-}
-
-label{
-    color: var(--card-font-color);
-    font-weight: 100;
-}
-
-.aside_min, .aside_max{
-    display: inline-block;
-    width: 40%;
-    margin-left: 8%;
-    font-size: 14px;
-}
-
-input{
-    margin-top: 10px;
-    display: inline-block;
-}
-
-.aside_price{
-    display: inline-block;
-    background-color: var(--card-bg-color);
-    border-style: none;
-    width: 40%;
-    height: 40px;
-    border-radius: 10px;
-    margin: 5% auto;
-    font-family: var(--primary-font);
-    font-size: 18px;
-    color: var(--subtitle-color);
-    text-align: center;
-}
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-}
-
-.aside_price::placeholder{
-    color: var(--subtitle-color);
-    font-size: 18px;
-    text-align: center;
-    margin: 0 auto;
-}
-
-.filter_btn{
-    display: block;
-    margin-top: 15px;
-    padding: 10px;
-    background-color: var(--btn-bg-color);
-    border-radius: 50px;
-    width: 100%;
-    height: 40px;
-    font-size: 14px;
-    font-weight: 600;
-    cursor: pointer;
-    border-style: none;
-}
-
-/* Banner */
-
-.section__banner{
-    margin: 5% auto;
-    width: 100%;
-    height: 75vh;
-    border-radius: 12px;
-    position: relative;
-    grid-column: 1 / 5;
-    grid-row: 1 / 2;
-}
-
-.banner{
-    background-image: url(../multimedia/img/Segun-PlayStation-estos-son-los-juegos-mas-esperados-del-2023-para-PS5-y-PS4.webp);
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    position: relative;
-    box-shadow: 4px 4px 12px #000,
-                -2px -2px 12px #000;
-}
-
-/* Cards */
-
-.section__cards{
-    margin: 0 auto 10% auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0 20px;
-    grid-column: 2 / 5;
-    grid-row: 1 / 5;
-    width: 95%;
-    /* height: 300vh; */
-}
-
-.cards{
-    background-color: var(--card-bg-color);
-    border-radius: 15px;
-    width: 90%;
-    height: 85%;
-    margin: 0 auto;
-    position: relative;
-    overflow: hidden;
-    box-shadow: 3px 3px 15px #000;
-}
-
-.cards > img{
-    border-radius: 15px;
-    width: 90%;
-    height: 40%;
-    /* margin: 2.5% 2.5% 0 2.5%; */
-    margin: 2% 5%;
-    cursor: pointer;
-}
-
-.cards h2{
-    padding-bottom: 10px;
-    font-size: 20px;
-    font-weight: 900;
-    text-align: center;
-}
-
-.cards__container_platforms{
-    /* outline: 2px solid white; */
-    width: 90%;
-    margin: 0 auto;
-}
-
-.cards__platforms{
-    display: inline-block;
-    font-weight: 100;
-    font-size: 12px;
-    padding: 4px;
-    width: 25%;
-    border-radius: 4px;
-    color: var(--card-font-color);
-    border: 1px solid var(--btn-bg-color);
-    text-align: center;
-    cursor: pointer;
-    margin: 4px auto;
-}
-
-.cards__description_container{
-    /* outline: 2px solid white; */
-    width: 90%;
-    margin: 0 auto;
-}
-
-.cards__description{
-    font-size: 14px;
-}
-
-.cards__price{
-    position: absolute;
-    left: 10%;
-    bottom: 3%;
-    font-size: 20px;
-    font-weight: 100;
-    color: var(--btn-bg-color);
-    margin-right: 5%;
-}
-
-.cards_btn{
-    position: absolute;
-    right: 0%;
-    bottom: 1.5%;
-    background-color: var(--btn-bg-color);
-    color: var(--main-bg-color);
-    border-style: none;
-    border-radius: 50px;
-    width: 50%;
-    height: 40px;
-    font-size: 14px;
-    font-weight: 600;
-    cursor: pointer;
-    margin: 0 5%;
-}
-
 /* ---------------------- FRANCO RUIZ ---------------------- */
-footer{
+footer {
     border-top: 2px solid #e58e27;
     border-bottom: 2px solid #e58e27;
     background-color: black;
@@ -327,13 +119,13 @@ footer{
     padding-top: 50px;
 }
 
-footer p{
+footer p {
     text-align: center;
     font-size: 20px;
     color: white;
 }
 
-.container{
+.container {
     width: 80%;
     height: auto;
     display: flex;
@@ -342,7 +134,7 @@ footer p{
     margin: auto;
 }
 
-.container .cards{
+.container .cards {
     width: 200px;
     height: auto;
     border-radius: 10px;
@@ -352,32 +144,32 @@ footer p{
     transition: all 0.25s;
 }
 
-.container .cards:hover{
+.container .cards:hover {
     transform: translateY(-15px);
     background: linear-gradient(to right, #2E1760, #2c3e50);
     box-shadow: 0 12px 20px rgba(248, 248, 248, 0.986);
 }
 
-.container .cards img{
+.container .cards img {
     margin: 10px 0px;
     border-radius: 20px;
     width: 80%;
     height: auto;
 }
 
-.container .cards h4{
+.container .cards h4 {
     font-weight: 400;
     font-size: 18px;
     color: white;
     padding-bottom: 10px;
 }
 
-.container .cards p{
+.container .cards p {
     font-size: 16px;
     font-weight: 200;
 }
 
-.container .cards .redes{
+.container .cards .redes {
     background-color: #e58e27;
     border-radius: 15px;
     height: auto;
@@ -388,21 +180,27 @@ footer p{
     text-align: center;
 }
 
-.container .cards i{
+.container .cards i {
     color: black;
     font-size: 30px;
 }
 
 /* contacto*/
 
-
-.card{
+.card2 {
     width: 315px;
     margin: 10px;
     text-align: center;
-    
+    background-color: #202020;
 }
-.container .card .redes{
+
+.card2 img {
+    margin-top: 15px;
+    width: 90%;
+    border-radius: 2rem;
+}
+
+.container .card2 .redes {
     background-color: #e58e27;
     border-radius: 15px;
     height: auto;
@@ -412,409 +210,101 @@ footer p{
     font-weight: 600;
     text-align: center;
 }
-.container .card h4{
+
+.container .card2 h4 {
     font-weight: 400;
     font-size: 40px;
     color: white;
     padding-bottom: 10px;
 }
 
-.container .card p{
+.container .card2 p {
     font-size: 25px;
     font-weight: 200;
 }
 
-
 /* +++++ MEDIA QUERIES +++++ */
-@media (max-width: 500px) {
-    main{
-        gap: 20px;
+
+@media (max-width: 501px) {
+    .logo {
+        margin: 0px 10px;
+        width: 120px;
     }
 
-    .section__banner{
-        grid-column: 1 / 5;
-        grid-row: 1 / 2;
+    .navbar a {
+        font-size: 25px;
     }
-    
-    aside{
-        grid-column: 1 / 5;
-        grid-row: 2 / 3;
+    .navbar .divicion{
+        margin-right: 30px;
     }
-
-    .aside__fieldset{
-        display: grid;
-        grid-template-columns: repeat(3,auto);
-        grid-template-rows: repeat(3,auto);
-        gap: 25px;
-        font-size: 14px;
-    }
-
-    .aside__filter_1{
-        grid-column: 1 / 3;
-        grid-row: 1 / 1;
-        /* margin: 0 auto; */
-    }
-
-    .aside__filter_2{
-        grid-column: 3 / 5;
-        grid-row: 1 / 1;
-        /* margin: 0 auto; */
-    }
-
-    .aside__filter_3{
-        grid-column: 1 / 5;
-        grid-row: 2 / 5;
-        width: 100%;
-    }
-
-    .aside__subtitle{
-        margin: 0;
-    }
-
-    h3{
-        font-size: 20px;
-    }
-    
-    .section__cards{
-        grid-column: 1 / 5;
-        grid-row: 3 / 5;
-        width: 90%;
-        gap: 20px 5px;
-    }
-
-    .cards{
-        height: 450px;
-    }
-
-    .cards > img{
-        height: 25%;
-    }
-
-    .cards h2{
-        font-size: 16px;
-        letter-spacing: .5px;
-        width: 95%;
-    }
-
-    .cards__container_platforms{
-        width: 90%;
-        text-align: center;
-        /* outline: 2px solid white; */
-    }
-
-    .cards__platforms{
-        font-size: 10px;
-        width: 45%;
-        text-align: center;
-    }
-
-    .cards__description_container{
-        width: 90%;
-        height: 180px;
-        /* outline: 2px solid white; */
-        overflow-y: auto;
-    }
-
-    .cards__description{
-        font-size: 11px;
-        padding: 5px;
-    }
-
-    .cards__container_price{
-        position: absolute;
-        left: 0;
-        bottom: 10px;
-        width: 100%;
-        height: 10%;
-        /* outline: 2px solid white; */
-    }
-
-    .cards__price{
-        left: 1%;
-        margin-right: 5%;
-        font-size: 14px;
-    }
-
-    .cards_btn{
-        font-size: 12px;
-        right: 0;
-        height: 50%;
-    }
-}
-
-@media (min-width: 501px) {  
-    nav a{
-        font-size: 15px;
-    }
-    
-    main{
+    main {
         display: grid;
         grid-template-columns: repeat(3, auto);
         grid-template-rows: repeat(3, auto);
         gap: 30px;
     }
 
-    aside{
-        grid-column: 1 / 5;
-        grid-row: 2 / 3;
-    }
 
-    .aside__fieldset{
-        display: grid;
-        grid-template-columns: repeat(3,auto);
-        grid-template-rows: repeat(3,auto);
-        gap: 25px;
-        font-size: 14px;
-    }
-
-    .aside__filter_1{
-        grid-column: 1 / 2;
-        grid-row: 1 / 1;
-    }
-
-    .aside__filter_2{
-        grid-column: 2 / 4;
-        grid-row: 1 / 1;
-    }
-
-    .aside__filter_3{
-        grid-column: 1 / 4;
-        grid-row: 2 / 4;
-        width: 100%;
-    }
-
-    .aside__subtitle{
-        margin: 0;
-    }
-
-    .section__banner{
-        grid-column: 1 / 5;
-        grid-row: 1 / 2;
-    }
-
-    .section__cards{
-        grid-column: 1 / 5;
-        grid-row: 3 / 5;
-        height: 90%;
-        gap: 40px 0;
-    }
-
-    .cards{
-        height: 450px;
-    }
-
-    .cards > img{
-        height: 25%;
-    }
-
-    h2{
-        letter-spacing: .5px;
-        width: 95%;
-    }
-
-    .cards__container_platforms{
-        width: 90%;
-        text-align: center;
-        /* outline: 2px solid white; */
-    }
-
-    .cards__platforms{
-        font-size: 10px;
-        width: 45%;
-        text-align: center;
-    }
-
-    .cards__description_container{
-        margin-top: 10%;
-        width: 90%;
-        /* outline: 2px solid white; */
-    }
-
-    .cards__description{
-        font-size: 12px;
-        padding: 6px;
-    }
-
-    .cards__container_price{
-        position: absolute;
-        left: 0;
-        bottom: 10px;
-        width: 100%;
-        height: 10%;
-        /* outline: 2px solid white; */
-    }
-
-    .cards__price{
-        left: 8%;
-        font-size: 18px;
-    }
-
-    .cards_btn{
-        right: 0;
-        height: 50%;
-    }
-
-    footer .container{
-        width: 100%;
-        max-width: 1200px;
-    }
-
-    footer .container .card{
-        width: 180px;
-        height: 290px;
-    }
-}
 
 @media (min-width: 801px) {
-    .logo{
+    .navbar .divicion{
+        margin-right: 30px;
+    }
+    .logo {
         margin: 0px 30px;
     }
-    
-    .titulo{
+
+    .titulo {
         margin: 40px 35px;
         font-size: 60px;
     }
 
-    .iconos a{
+    .iconos a {
         font-size: 35px;
         margin: 10px 5px;
     }
-    
-    nav a{
+
+    nav a {
         font-size: 25px;
     }
 
-    main{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, auto);
-        gap: 25px 0;
-    }
-
-    aside{
-        grid-column: 1 / 2;
-        grid-row: 2 / 5;
-    }
-    
-    .aside__fieldset{
-        margin: -5% auto;
-        width: 100%;
-    }
-
-    .section__banner{
-        grid-column: 1 /  5;
-        grid-row: 1 / 1;
-        margin: 5% auto;
-    }
-    
-    .section__cards{
-        display: grid;
-        grid-template-columns: repeat(1,auto);
-        grid-column: 2 / 5;
-        grid-row: 2 / 5;
-        width: 80%;
-        height: 100%;
-        /* height: 650vh; */
-        margin: 0 auto;
-        padding-bottom: 10%;
-    }
-
-    .cards{
-        width: 100%;
-    }
-
-    .cards > img{
-        height: 40%;
-    }
-
-    h2{
-        width: 95%;
-        padding: 5px;
-        margin: 0 auto;
-        /* outline: 2px solid chocolate; */
-        text-align: center;
-    }
-
-    .cards__container_platforms{
-        width: 95%;
-        padding: 5px;
-        /* outline: 2px solid chocolate; */
-    }
-    
-    .cards__platforms{
-        margin-left: 14px;      
-    }
-
-    .cards__description_container{
-        margin: 0 auto;
-        padding: 10px;
-        width: 95%;
-        /* outline: 2px solid chocolate; */
-    }
-
-    .cards__description{
-        width: 100%;
-        height: 90%;
-        font-size: 12px;
-        /* padding: 20px 10px; */
-        /* outline: 2px solid chocolate; */
-    }
-
-    .cards__container_price{
-        position: absolute;
-        /* outline: 2px solid chocolate; */
-        /* padding: 35px; */
-    }
-
-    .cards__price{
-        font-size: 25px;
-    }
-
-    .cards_btn{
-        height: 80%;
-    }
-
-    /* Hover Effects */
-
-    .cards:hover{
-    transform: scale(1.1);
-    cursor: pointer;
 }
-}
-
-
-@media (min-width: 1201px){
-    .logo{
+@media (min-width: 1201px) {
+    .navbar .divicion{
+        margin-right: 30px;
+    }
+    .logo {
         margin: 0px 70px;
     }
-    
-    .titulo{
+
+    .titulo {
         margin: 30px 35px;
         font-size: 70px;
     }
 
-    header div{
+    header div {
         flex-direction: row;
     }
 
-    .iconos a{
+    .iconos a {
         font-size: 40px;
         margin: 10px 25px;
     }
-    
-    nav a{
+
+    nav a {
         font-size: 30px;
         margin: 10px 20px;
     }
 
-    footer .container{
+    footer .container {
         width: 100%;
         max-width: 1500px;
-        
+
     }
 
-    footer .container .card{
+    footer .container .card {
         width: 165px;
         height: 290px;
     }
+}
 }
