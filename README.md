@@ -11,3 +11,4 @@ Currently, two official plugins are available:
 - Walter Coronel
 - Franco Ruiz
 - Elian Amselem
+- Jordi Maldonado
