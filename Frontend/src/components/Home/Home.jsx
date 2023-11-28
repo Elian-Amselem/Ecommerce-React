@@ -1,24 +1,20 @@
 import './Home.css'
 import React, { useEffect, useState } from 'react'
-import PopularGames from '../PopularGames/PopularGames';
 import Pagination from '../Pagination/Pagination';
 import Footer from '../Footer/Footer';
-
+import PopularGames from '../PopularGames/PopularGames';
 const Home = () => {
-    const key = "key=245f832a08d8466ea2e21a8a0455bd8b";
-    const API_URL = "https://api.rawg.io/api/";
+    const API_URL = "http://localhost:8081/juegos";
     const [popularGames,setPopularGames] = useState();
     console.log(popularGames);
 
     const [index, setIndex] = useState(1)
-
     useEffect(() => {
-        fetch(`${API_URL}games?${key}&page=${index}`)
-        .then((response) => response.json())
-        .then((data) => setPopularGames(data.results))
-        .catch((err) => console.log(err))
-
-    }, [index])
+        fetch(`${API_URL}`)
+            .then((response) => response.json())  
+            .then((data) => setPopularGames(data.juegos))
+            .catch((err) => console.log(err));
+    }, [index]);
 
     const handlePrev = () => {
         setIndex(prevValue => prevValue - 1)
@@ -33,9 +29,9 @@ return (
         <main>
             
             {
-                popularGames ? popularGames.map((games) => <PopularGames key={games.id} {...games} />)
-                :   <div class="glitch-wrapper">
-                        <div class="glitch" data-glitch="Loading">Loading...</div>
+                popularGames ? popularGames.map((games) => <PopularGames key={games._id} {...games} />)
+                :   <div className="glitch-wrapper">
+                        <div className="glitch" data-glitch="Loading">Loading...</div>
                     </div>
             }
             

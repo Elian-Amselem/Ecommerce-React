@@ -1,18 +1,20 @@
 import './PopularGames.css'
 
-const PopularGames = ({name,background_image,rating_top,reviews_count,suggestions_count,metacritic}) => {
+const PopularGames = ({nombre,imagen,descripcion,lanzamiento,plataformas}) => {
 
 return (
     <div className="card">
         <div className="card_img">
-            <img className="card_bg-image" src={background_image} alt={name} />
+            <img className="card_bg-image" src={imagen} alt={nombre} />
         </div>
         <div className="card_data">
-            <h2>{name} <span className="card_meta-critic">{metacritic}</span></h2>
+            <h2>{nombre} <span className="card_meta-critic">{lanzamiento}</span></h2>
             <div className='card_data-extras'>
-            <h4>⭐Rating: {rating_top}</h4>
-            <p>💬{reviews_count}</p>
+            <p>💬{descripcion}</p>
             </div>
+            <h4>🎮Plataformas: {plataformas.map((platform) =>{
+                return(<li key={platform}>{platform}</li>)
+            })} </h4>
         </div>
     </div>
 )

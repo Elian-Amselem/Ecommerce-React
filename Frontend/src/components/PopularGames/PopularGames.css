@@ -40,7 +40,6 @@ main {
 .card_data-extras{
     display: flex;
     padding: 1rem;
-    justify-content: space-between 
 }
 
 @media (max-width: 501px) {
