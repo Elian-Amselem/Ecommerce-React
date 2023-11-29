@@ -46,6 +46,12 @@ function Footer() {
                         </div>
                         
                     </div>
+                   
+                    
+                </div>
+
+                    <div className="container">
+
                     <div className="cards">
                         <img src={franco} alt="franco" />
                         <h4>Franco Ruiz</h4>
@@ -80,6 +86,7 @@ function Footer() {
                             </a>
                         </div>
                     </div>
+                    
                 </div>
             </footer>
         </div>

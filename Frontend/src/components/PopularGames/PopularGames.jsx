@@ -12,9 +12,11 @@ return (
             <div className='card_data-extras'>
             <p>💬{descripcion}</p>
             </div>
+            <div className='card_plataforma'>
             <h4>🎮Plataformas: {plataformas.map((platform) =>{
                 return(<li key={platform}>{platform}</li>)
             })} </h4>
+            </div>
         </div>
     </div>
 )

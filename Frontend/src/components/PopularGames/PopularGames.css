@@ -15,6 +15,8 @@ main {
     border-radius: 2rem;
     row-gap: 1.5rem;
     background-color: #202020;
+
+    color: white;
 }
 
 .card_img {
@@ -40,6 +42,10 @@ main {
 .card_data-extras{
     display: flex;
     padding: 1rem;
+    font-size: 14px;
+}
+.card_plataforma>h4{
+    font-size: 14px;
 }
 
 @media (max-width: 501px) {

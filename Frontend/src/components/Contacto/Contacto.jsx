@@ -44,7 +44,11 @@ function Contacto() {
             </a>
           </div>
         </div>
-        <div className="card">
+      </div>
+
+
+      <div className="container">
+      <div className="card">
           <img src={franco} alt="franco" />
           <h4>Franco Ruiz</h4>
           <p>Programador Web Full Stack JR</p>
@@ -77,6 +81,9 @@ function Contacto() {
           </div>
         </div>
       </div>
+
+
+      
     </div>
   );
 }

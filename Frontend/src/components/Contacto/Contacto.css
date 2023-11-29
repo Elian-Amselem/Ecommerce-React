@@ -1,11 +1,14 @@
 .subtittle__contact{
     text-align: center;
+    color: white;
 }
 
 .container{
     display: grid;
     gap: 1rem;
     margin-bottom: 2rem;
+    place-items: center;
+    margin-left: 30%;
 }
 
 @media (min-width: 500px) {

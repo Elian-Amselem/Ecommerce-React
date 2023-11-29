@@ -76,9 +76,12 @@ header div {
     justify-content: center; 
     border-radius: 5px; 
     background-color: black; 
-} 
+}
+
 .navbar .divicion{
     margin-right: 30px;
+    font-weight: bold;
+    margin-left: 22rem;
 }
 .navbar ul{
     display: flex;
@@ -131,6 +134,7 @@ footer p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
     margin: auto;
 }
 
@@ -140,8 +144,10 @@ footer p {
     border-radius: 10px;
     overflow: hidden;
     margin: 20px 30px;
+    align-items: center;
     text-align: center;
     transition: all 0.25s;
+    margin-left: 0rem;
 }
 
 .container .cards:hover {
