@@ -11,7 +11,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 const Home = () => {
 
-    const API_URL = "http://localhost:8081/juegos";
+    const API_URL = " http://localhost:8082/v1/juegos";
     const [popularGames, setPopularGames] = useState();
     console.log(popularGames);
 
