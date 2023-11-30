@@ -78,7 +78,7 @@ function ActJuegos(){
                                     <option>Seleccionar juego</option>
                                     {juegos.map((juego) =>(
                                         <option key={juego._id} value={juego._id}>
-                                            {juego.nombre} - {juego.descripcion} - {juego.lanzamiento} - {juego.plataformas}
+                                            {juego.nombre}
                                         </option>
                                     ))}
                                 </Form.Select>

@@ -22,6 +22,6 @@ app.use(session({
     saveUninitialized: false,   
 }));
 
-app.use('/', juegosRoutes);
+app.use('/v1', juegosRoutes);
 
 module.exports = app;

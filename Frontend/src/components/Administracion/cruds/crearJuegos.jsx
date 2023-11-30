@@ -50,7 +50,7 @@ function CrearJuegos() {
                         <Row className="mb-3">
                             <Form.Group as={Col} controlId="nombre">
                                 <Form.Label>Nombre</Form.Label>
-                                <Form.Control placeholder="Nombre del juego" name='juego' onChange={(event) => { setJuego(event.target.value) }} />
+                                <Form.Control placeholder="Nombre del juego" name='juego' onChange={(event) => { setNombre(event.target.value) }} />
                             </Form.Group>
                         </Row>
 
