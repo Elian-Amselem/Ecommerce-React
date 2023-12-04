@@ -1,18 +1,18 @@
-import React, {useState, useEffect, useRef} from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 
-import { getJuegos, updateJuegos} from '../services';
+import { getJuegos, updateJuegos } from '../services';
 
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
 
-function ActJuegos(){
+function ActJuegos() {
     const [juegos, setJuegos] = useState([]);
     const [juegosSel, setJuegoSel] = useState("");
     const [datosJuego, setDatosJuegos] = useState({});
 
-    useEffect(() =>{
+    useEffect(() => {
         async function cargaJuegos() {
             const response = await getJuegos();
 
@@ -51,55 +51,84 @@ function ActJuegos(){
         }
 
         const confirmActualizar = window.confirm(`¿Vas a actualizar el juego mi rey?`);
-        
-        if(confirmActualizar){
+
+        if (confirmActualizar) {
             updateJuegos(juegosSel, datosNuevos)
-            .then((response) => {
-                handleClose()
-                window.location.reload()
-            } )
+                .then((response) => {
+                    handleClose()
+                    window.location.reload()
+                })
         }
 
     };
 
-    return(
+    return (
         <div>
             <Button className=' shadow m-3' variant="primary" type="submit" value="Enviar" onClick={handleShow}>Actualizar juego</Button>
-                <Modal show={show} onHide={handleClose} animation={false}>
-                    <Modal.Header>
-                        <Modal.Title>Actualizar juego</Modal.Title>
-                    </Modal.Header>
+            <Modal show={show} onHide={handleClose} animation={false}>
+                <Modal.Header>
+                    <Modal.Title>Actualizar juego</Modal.Title>
+                </Modal.Header>
 
-                    <Modal.Body>
-                        <Form>
+                <Modal.Body>
+                    <Form>
                         <Form.Group controlId="juego">
-                                <Form.Label>Seleccionar juego</Form.Label>
-                                <Form.Select value={juegosSel} onChange={handleSelJuego}>
-                                    <option>Seleccionar juego</option>
-                                    {juegos.map((juego) =>(
-                                        <option key={juego._id} value={juego._id}>
-                                            {juego.nombre}
-                                        </option>
-                                    ))}
-                                </Form.Select>
-                            </Form.Group>
-                    {juegosSel && (
-                        <div>
-                            <Form.Group controlId="nombre">
-                            <Form.Label>Nombre del juego</Form.Label>
-                            <Form.Control defaultValue={datosJuego.nombre} name="nombre" onChange={(event) => {setDatosJuegos({...datosJuego, nombre: event.target.value})}}></Form.Control>
-                            </Form.Group>
-                        </div>
-                    )}
-                        </Form>
-                    </Modal.Body>
+                            <Form.Label>Seleccionar juego</Form.Label>
+                            <Form.Select value={juegosSel} onChange={handleSelJuego}>
+                                <option>Seleccionar juego</option>
+                                {juegos.map((juego) => (
+                                    <option key={juego._id} value={juego._id}>
+                                        {juego.nombre}
+                                    </option>
+                                ))}
+                            </Form.Select>
+                        </Form.Group>
+                        {juegosSel && (
+                            <div>
+                                <Form.Group controlId="nombre">
+                                    <Form.Label>Nombre del juego</Form.Label>
+                                    <Form.Control defaultValue={datosJuego.nombre} name="nombre" onChange={(event) => { setDatosJuegos({ ...datosJuego, nombre: event.target.value }) }}></Form.Control>
+                                </Form.Group>
 
-                    <Modal.Footer>
+
+                                <Form.Group controlId="descripcion">
+                                    <Form.Label>Descripcion</Form.Label>
+                                    <Form.Control defaultValue={datosJuego.descripcion} name="descripcion" onChange={(event) => { setDatosJuegos({ ...datosJuego, descripcion: event.target.value }) }}></Form.Control>
+                                </Form.Group>
+
+                                <Form.Group controlId="lanzamiento">
+                                    <Form.Label>lanzamiento</Form.Label>
+                                    <Form.Control defaultValue={datosJuego.lanzamiento} name="lanzamiento" onChange={(event) => { setDatosJuegos({ ...datosJuego, lanzamiento: event.target.value }) }}></Form.Control>
+                                </Form.Group>
+
+
+                                <Form.Group controlId="plataformas">
+                                    <Form.Label>Plataformas</Form.Label>
+                                    <Form.Control
+                                        defaultValue={datosJuego.plataformas.join(', ')} // Convertir el array a una cadena separada por comas
+                                        name="plataformas"
+                                        onChange={(event) => {
+                                            const plataformaArray = event.target.value.split(',').map((plataforma) => plataforma.trim());
+                                            setDatosJuegos({ ...datosJuego, plataformas: plataformaArray });
+                                        }}
+                                    />
+                                </Form.Group>
+
+
+                               
+
+
+                            </div>
+                        )}
+                    </Form>
+                </Modal.Body>
+
+                <Modal.Footer>
                     <Button variant="success" type="submit" onClick={handleSubmit}>Actualizar juego</Button>
                     <Button variant="danger" onClick={handleClose}>Cancelar</Button>
                 </Modal.Footer>
 
-                </Modal>
+            </Modal>
         </div>
     )
 

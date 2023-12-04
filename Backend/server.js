@@ -7,7 +7,7 @@ const { appConfig, dbConfig } = require('./config');
 async function initApp(appConfig, dbConfig){
     try{
         await connectDb(dbConfig)
-        app.listen(appConfig.port, ()=> console.log(`listen on ${appConfig.port}`))
+        app.listen(appConfig.port, ()=> console.log(`escuchando en el puerto ${appConfig.port}`))
 
     }
     catch (e){console.error(e)

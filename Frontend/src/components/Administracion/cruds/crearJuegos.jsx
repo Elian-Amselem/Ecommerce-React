@@ -78,16 +78,6 @@ function CrearJuegos() {
 
                         
 
-                        {/* <Row className="mb-3">
-                            <Form.Group as={Col} controlId="modalidad">
-                                <Form.Select className='mb-3' name='modalidad' onChange={(event) => { setModalidad(event.target.value) }}>
-                                    <option>Seleccioná una modalidad</option>
-                                    <option value="extensivo">Extensivo</option>
-                                    <option value="intensivo">Intensivo</option>
-                                    <option value="conversación">Conversación</option>
-                                </Form.Select>
-                            </Form.Group>
-                        </Row> */}
                     </Form>
                 </Modal.Body>
 
