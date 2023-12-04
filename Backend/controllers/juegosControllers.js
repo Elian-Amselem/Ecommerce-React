@@ -27,7 +27,7 @@ async function addJuego(req, res){
 
 async function getJuegos(req, res) {
     try{
-        const juegos = await Juego.find().limit(6);
+        const juegos = await Juego.find();
         res.status(200).send({juegos});
     }
     catch (e) {

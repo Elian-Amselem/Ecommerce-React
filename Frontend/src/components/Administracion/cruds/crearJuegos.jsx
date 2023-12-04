@@ -21,10 +21,10 @@ function CrearJuegos() {
 
     const handleSubmit = (juegosData) => {
         saveJuegos(juegosData = {
-            nombre: nombre,
-            descripcion: descripcion,
-            lanzamiento: lanzamiento,
-            plataformas: plataformas,
+            nombre,
+            descripcion,
+            lanzamiento,
+            plataformas,
             imagen: inputFileRef.current.files[0],
         })
             .then((response) => {

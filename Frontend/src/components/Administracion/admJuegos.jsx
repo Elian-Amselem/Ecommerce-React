@@ -11,7 +11,7 @@ import Container from 'react-bootstrap/Container';
 
 
 export const AdmJuegos = () => {
-    const [cursos, setJuegos] = useState([]);
+    const [juegos, setJuegos] = useState([]);
 
     useEffect(() => {
         async function cargaJuegos() {

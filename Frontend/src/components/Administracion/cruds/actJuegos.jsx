@@ -40,7 +40,7 @@ function ActJuegos(){
         const newImagen = inputFileRef.current?.file[0];
         const newDescripcion = datosJuego.descripcion;
         const newLanzamiento = datosJuego.lanzamiento;
-        const newPlataformas = datosJuego.plataformas
+        const newPlataformas = datosJuego.plataformas;
 
         const datosNuevos = {
             nombre: newNombre,
