@@ -54,9 +54,9 @@
     width: 100px;
 }
 
-.redes > a > svg {
-    width: 4rem;
-    height: 9rem;
+.redes > div > a > svg {
+    width: 2rem;
+    height: 2rem;
 }
 
 

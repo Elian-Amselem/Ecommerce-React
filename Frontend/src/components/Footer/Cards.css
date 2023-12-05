@@ -67,6 +67,11 @@
 .container1 .cards .redes a {
     margin: 0 10px;
 }
+
+.container1 .cards .redes a svg{
+    height: 2rem;
+}
+
 .container1 .cards i {
     color: black;
     font-size: 60px;

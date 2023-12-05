@@ -1,6 +1,6 @@
 import './Home.css'
 import React, { useEffect, useState } from 'react'
-import Pagination from '../Pagination/Pagination';
+// import Pagination from '../Pagination/Pagination';
 import Footer from '../Footer/Footer';
 import PopularGames from '../PopularGames/PopularGames';
 import Carousel from 'react-bootstrap/Carousel';
@@ -13,7 +13,7 @@ const Home = () => {
 
     const API_URL = import.meta.env.VITE_JUEGOS_URL;
     const [popularGames, setPopularGames] = useState();
-    console.log(popularGames);
+    // console.log(popularGames);
 
     const [index, setIndex] = useState(1)
     useEffect(() => {
@@ -23,13 +23,13 @@ const Home = () => {
             .catch((err) => console.log(err));
     }, [index]);
 
-    const handlePrev = () => {
-        setIndex(prevValue => prevValue - 1)
-    }
+    // const handlePrev = () => {
+    //     setIndex(prevValue => prevValue - 1)
+    // }
 
-    const handleNext = () => {
-        setIndex(prevValue => prevValue + 1)
-    }
+    // const handleNext = () => {
+    //     setIndex(prevValue => prevValue + 1)
+    // }
 
     return (
         <>
@@ -61,7 +61,7 @@ const Home = () => {
                 }
 
             </main>
-            <Pagination index={index} handlePrev={handlePrev} handleNext={handleNext} />
+            {/* <Pagination index={index} handlePrev={handlePrev} handleNext={handleNext} /> */}
             <Footer />
         </>
     )
