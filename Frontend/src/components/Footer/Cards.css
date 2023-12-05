@@ -1,10 +1,16 @@
+.home-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 .container1 {
-    width: 80%;
+    width: 25%;
     height: auto;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-around;
-    flex-direction: row; 
     margin: auto;
 }
 

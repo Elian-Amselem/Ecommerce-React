@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // const baseUrl = import.meta.env.REACT_APP_BASE_URL;
 
-const baseUrl = "http://localhost:8082/v1"
+const baseUrl = import.meta.env.VITE_BASE_URL;
 
 export async function getJuegos(){
     try{

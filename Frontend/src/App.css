@@ -135,7 +135,6 @@ footer p {
 
 
 
-/* contacto*/
 
 
 
@@ -213,15 +212,17 @@ footer p {
         margin: 10px 20px;
     }
 
-    footer .container {
-        width: 100%;
+     .home-cards {
+        width: 60%;
         max-width: 1500px;
-
+        display: flex;
+        flex-wrap: wrap;
     }
 
-    footer .container .card {
+    .home-cards  .card {
         width: 165px;
         height: 290px;
+        flex-wrap: wrap;
     }
 }
 }

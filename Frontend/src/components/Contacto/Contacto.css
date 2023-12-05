@@ -3,23 +3,33 @@
     color: white;
 }
 
-.container2 {
+.container2{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; 
-    text-align: center;
-    gap: 1rem;
-    margin-bottom: 2rem;
-    padding: 10px;
+}
+.container3 {
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
 }
 
+
 .card {
-    flex: 0 0 calc(33.3333% - 1rem); 
-    border: 1px solid #ccc; 
-    border-radius: 8px; 
-    overflow: hidden; 
-    transition: transform 0.3s ease-in-out;
+    color: white;
+    background-color: black;
+    width: 400px;
+    height: auto;
+    overflow: hidden;
+    margin: 20px 15px;
+    align-items: center;
+    text-align: center;
+    transition: all 0.25s;
+    margin-left: 0rem;
 }
 
 .card:hover {
@@ -29,12 +39,9 @@
 .card > img {
     width: 100%; 
     height: auto; 
-    border-radius: 30px 25px 25px 25px; 
 }
 
-.card > div {
-    padding: 1rem;
-}
+
 
 .redes {
     display: flex;
@@ -44,11 +51,12 @@
 
 .container2 .card .redes a {
     margin: 0 10px;
+    width: 100px;
 }
 
 .redes > a > svg {
-    width: 30px;
-    height: 30px;
+    width: 4rem;
+    height: 9rem;
 }
 
 

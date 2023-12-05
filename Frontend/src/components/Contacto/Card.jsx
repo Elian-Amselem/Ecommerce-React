@@ -4,7 +4,7 @@ const card = (props) => {
     return (
         <>
             {props.details.map((value, index) => (
-                <div className="container2" key={index}>
+                <div className="container3" key={index}>
                     <div className="card">
                         <img src={value.img} alt={value.title} />
                         <h4>{value.title}</h4>

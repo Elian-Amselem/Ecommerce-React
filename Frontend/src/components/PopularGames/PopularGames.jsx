@@ -3,7 +3,7 @@ import './PopularGames.css'
 const PopularGames = ({nombre,imagen,descripcion,lanzamiento,plataformas}) => {
 
 return (
-    <div className="card">
+    <div className="card2">
         <div className="card_img">
             <img className="card_bg-image" src={imagen} alt={nombre} />
         </div>
