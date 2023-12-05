@@ -114,10 +114,6 @@ function ActJuegos() {
                                     />
                                 </Form.Group>
 
-
-                               
-
-
                             </div>
                         )}
                     </Form>

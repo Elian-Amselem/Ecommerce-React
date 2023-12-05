@@ -133,106 +133,11 @@ footer p {
     color: white;
 }
 
-.container {
-    width: 80%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-    margin: auto;
-}
 
-.container .cards {
-    width: 200px;
-    height: auto;
-    border-radius: 10px;
-    overflow: hidden;
-    margin: 20px 30px;
-    align-items: center;
-    text-align: center;
-    transition: all 0.25s;
-    margin-left: 0rem;
-}
-
-.container .cards:hover {
-    transform: translateY(-15px);
-    background: linear-gradient(to right, #2E1760, #2c3e50);
-    box-shadow: 0 12px 20px rgba(248, 248, 248, 0.986);
-}
-
-.container .cards img {
-    margin: 10px 0px;
-    border-radius: 20px;
-    width: 80%;
-    height: auto;
-}
-
-.container .cards h4 {
-    font-weight: 400;
-    font-size: 18px;
-    color: white;
-    padding-bottom: 10px;
-}
-
-.container .cards p {
-    font-size: 16px;
-    font-weight: 200;
-}
-
-.container .cards .redes {
-    background-color: #e58e27;
-    border-radius: 15px;
-    height: auto;
-    margin: 20px 5px;
-    width: auto;
-    align-items: center;
-    font-weight: 600;
-    text-align: center;
-}
-
-.container .cards i {
-    color: black;
-    font-size: 30px;
-}
 
 /* contacto*/
 
-.card2 {
-    width: 315px;
-    margin: 10px;
-    text-align: center;
-    background-color: #202020;
-}
 
-.card2 img {
-    margin-top: 15px;
-    width: 90%;
-    border-radius: 2rem;
-}
-
-.container .card2 .redes {
-    background-color: #e58e27;
-    border-radius: 15px;
-    height: auto;
-    margin: 20px 5px;
-    width: auto;
-    align-items: center;
-    font-weight: 600;
-    text-align: center;
-}
-
-.container .card2 h4 {
-    font-weight: 400;
-    font-size: 40px;
-    color: white;
-    padding-bottom: 10px;
-}
-
-.container .card2 p {
-    font-size: 25px;
-    font-weight: 200;
-}
 
 /* +++++ MEDIA QUERIES +++++ */
 
