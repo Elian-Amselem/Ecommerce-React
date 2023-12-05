@@ -8,7 +8,12 @@
     /* background-color: #222; */
     background: linear-gradient(to right, #2E1760, #2c3e50);
 }
-
+.borderCarousel{
+    margin-left: 12rem;
+}
+.carrousel-control-prev{
+    margin-left: -10rem;
+}
 .glitch {
     position: relative;
     font-size: 80px;
