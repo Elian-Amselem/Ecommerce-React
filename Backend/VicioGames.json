@@ -1,0 +1,392 @@
+[{
+  "_id": {
+    "$oid": "656166702b77e60fe79b48d2"
+  },
+  "nombre": "Fallout 4",
+  "imagen": "https://media.rawg.io/media/games/d82/d82990b9c67ba0d2d09d4e6fa88885a7.jpg",
+  "descripcion": "Fallout 4 es un RPG de acción y mundo abierto que transporta a los jugadores a un Yermo devastado por la guerra nuclear. Encarnas al Único Superviviente en busca de su hijo secuestrado, explorando ruinas, interactuando con facciones y tomando decisiones que afectan el destino del yermo. El juego destaca por su rica narrativa, construcción de asentamientos, y un sistema de elecciones morales impactantes.",
+  "lanzamiento": "2015-11-09",
+  "plataformas": [
+    "Xbox One",
+    "PC",
+    "PlayStation 4"
+  ]
+},
+{
+  "_id": {
+    "$oid": "656166702b77e60fe79b48d3"
+  },
+  "nombre": "Destiny 2",
+  "imagen": "https://media.rawg.io/media/games/34b/34b1f1850a1c06fd971bc6ab3ac0ce0e.jpg",
+  "descripcion": "Destiny 2 es un shooter en línea que combina acción frenética con una narrativa épica de ciencia ficción. Como Guardián, te embarcarás en misiones para proteger la última ciudad en la Tierra de amenazas alienígenas. El juego ofrece un extenso universo, asaltos desafiantes y modos multijugador competitivos, todo envuelto en una trama cautivadora.",
+  "lanzamiento": "2017-09-06",
+  "plataformas": [
+    "Xbox One",
+    "PC",
+    "PlayStation 4",
+    "Web",
+    "Xbox Series S/X",
+    "PlayStation 5"
+  ]
+},
+{
+  "_id": {
+    "$oid": "656166702b77e60fe79b48d4"
+  },
+  "nombre": "Horizon Zero Dawn",
+  "imagen": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg",
+  "descripcion": "Ambientado en un futuro posapocalíptico, Horizon Zero Dawn sigue a Aloy, una cazadora que desentraña los misterios de máquinas robóticas y tecnología antigua. Con un mundo vibrante y visualmente impresionante, el juego combina una historia cautivadora con combates tácticos y un vasto entorno de mundo abierto.",
+  "lanzamiento": "2017-02-28",
+  "plataformas": [
+    "PlayStation 4",
+    "PC"
+  ]
+},
+{
+  "_id": {
+    "$oid": "656166702b77e60fe79b48d5"
+  },
+  "nombre": "Dota 2",
+  "imagen": "https://media.rawg.io/media/games/6fc/6fcf4cd3b17c288821388e6085bb0fc9.jpg",
+  "descripcion": " Dota 2 es un MOBA que desafía la estrategia y habilidad. Los jugadores eligen entre una amplia variedad de héroes únicos y se enfrentan en intensas batallas 5v5. Con una escena competitiva próspera, Dota 2 se centra en la habilidad individual, la toma de decisiones estratégicas y la cooperación en equipo.",
+  "lanzamiento": "2013-07-09",
+  "plataformas": [
+    "PC"
+  ]
+},
+{
+  "_id": {
+    "$oid": "656166702b77e60fe79b48d6"
+  },
+  "nombre": "Hollow Knight",
+  "imagen": "https://media.rawg.io/media/games/4cf/4cfc6b7f1850590a4634b08bfab308ab.jpg",
+  "descripcion": "Hollow Knight es un juego de aventuras indie que sumerge a los jugadores en un oscuro y hermoso mundo subterráneo lleno de insectos y misterios. Con una jugabilidad de plataformas desafiante, una narrativa sutil y un diseño artístico excepcional, el juego ofrece una experiencia única y envolvente.",
+  "lanzamiento": "2017-02-23",
+  "plataformas": [
+    "PlayStation 4",
+    "PC",
+    "Nintendo Switch",
+    "Xbox One "
+  ]
+},
+{
+  "_id": {
+    "$oid": "656166702b77e60fe79b48d7"
+  },
+  "nombre": "Dark Souls III",
+  "imagen": "https://media.rawg.io/media/games/da1/da1b267764d77221f07a4386b6548e5a.jpg",
+  "descripcion": "Dark Souls III es un RPG de acción conocido por su dificultad y ambientación oscura. Los jugadores exploran un mundo moribundo lleno de enemigos formidables, descubren una historia envolvente y enfrentan desafíos intensos. La jugabilidad exigente y el diseño atmosférico definen la experiencia única de Dark Souls III.",
+  "lanzamiento": "2016-04-11",
+  "plataformas": [
+    "Xbox One",
+    "PlayStation 4",
+    "PC"
+  ]
+},
+{
+  "_id": {
+    "$oid": "656166702b77e60fe79b48d8"
+  },
+  "nombre": "Far Cry 3",
+  "imagen": "https://media.rawg.io/media/games/15c/15c95a4915f88a3e89c821526afe05fc.jpg",
+  "descripcion": "En Far Cry 3, los jugadores se sumergen en una isla tropical infestada de peligros. Jason Brody, un turista varado, se enfrenta a mercenarios y piratas mientras busca a sus amigos. La narrativa explora la evolución de Jason de un joven despreocupado a un guerrero endurecido, todo dentro de un mundo abierto lleno de acción y sorpresas.",
+  "lanzamiento": "2012-11-28",
+  "plataformas": [
+    "Xbox One",
+    "Xbox 360",
+    "PlayStation 3",
+    "PC",
+    "PlayStation 4"
+  ]
+},
+{
+  "_id": {
+    "$oid": "656166702b77e60fe79b48d9"
+  },
+  "nombre": "Alan Wake",
+  "imagen": "https://media.rawg.io/media/games/5c0/5c0dd63002cb23f804aab327d40ef119.jpg",
+  "descripcion": "Alan Wake es un thriller psicológico que sigue al escritor homónimo en busca de su esposa desaparecida en un oscuro pueblo. Enfrenta criaturas de la oscuridad con una linterna y descubre los misterios que rodean a su última novela. El juego fusiona narrativa intensa con elementos de horror y acción.",
+  "lanzamiento": "2010-05-14",
+  "plataformas": [
+    "Xbox 360",
+    "Xbox One",
+    "PC"
+  ]
+},
+{
+  "_id": {
+    "$oid": "656166702b77e60fe79b48da"
+  },
+  "nombre": "Monster Hunter: World",
+  "imagen": "https://media.rawg.io/media/games/21c/21cc15d233117c6809ec86870559e105.jpg",
+  "descripcion": "Monster Hunter: World sumerge a los jugadores en la caza de bestias colosales en entornos exuberantes. Con un sistema de combate profundo, los cazadores exploran, recolectan recursos y mejoran su equipo para enfrentarse a criaturas épicas. El juego fomenta la colaboración en línea en emocionantes expediciones.",
+  "lanzamiento": "2018-01-26",
+  "plataformas": [
+    "PlayStation 4",
+    "Xbox One",
+    "PC"
+  ]
+},
+{
+  "_id": {
+    "$oid": "656166702b77e60fe79b48db"
+  },
+  "nombre": "Age of Empires II: Definitive Edition",
+  "imagen": "https://media.rawg.io/media/games/945/9455733af10406794b0c1b8d117bca76.jpg",
+  "descripcion": "Age of Empires II: Definitive Edition revive la estrategia en tiempo real, permitiendo a los jugadores liderar civilizaciones históricas. Desde la Edad Media hasta el Renacimiento, construyen imperios, gestionan recursos y participan en batallas tácticas. Con gráficos mejorados y contenido adicional, es una experiencia completa para los fanáticos de la estrategia.",
+  "lanzamiento": "2019-11-14",
+  "plataformas": [
+    "PC",
+    "Xbox Series S/X"
+  ]
+},
+{
+  "_id": {
+    "$oid": "656166702b77e60fe79b48dc"
+  },
+  "nombre": "The Witcher 3: Wild Hunt",
+  "imagen": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg",
+  "descripcion": "Es un apasionante juego de rol de acción ambientado en un vasto mundo abierto. Controlas a Geralt de Rivia, un cazador de monstruos mutado, mientras busca a su hija adoptiva perdida en medio de la guerra. Con una trama rica y ramificada, te sumerges en una narrativa épica que involucra política, magia oscura y criaturas míticas. El juego destaca por su impresionante diseño visual, desde paisajes pintorescos hasta detalles vívidos de personajes. La jugabilidad combina combate táctico, decisiones morales impactantes y la posibilidad de explorar un mundo lleno de misterios y desafíos. Con una banda sonora envolvente y misiones secundarias tan envolventes como la historia principal, The Witcher 3 es un título que ofrece una experiencia inmersiva y emocionalmente cautivadora.",
+  "lanzamiento": "2015-05-18",
+  "plataformas": [
+    "PlayStation 5",
+    "PlayStation 4",
+    "Xbox Series S/X",
+    "Xbox One",
+    "PC"
+  ]
+},
+{
+  "_id": {
+    "$oid": "656166702b77e60fe79b48dd"
+  },
+  "nombre": "Tomb Raider (2013)",
+  "imagen": "https://media.rawg.io/media/games/021/021c4e21a1824d2526f925eff6324653.jpg",
+  "descripcion": "Es un juego de acción y aventuras que narra los orígenes de la icónica heroína, Lara Croft. En una isla misteriosa y peligrosa, Lara debe sobrevivir, explorar tumbas antiguas y desentrañar secretos mientras desarrolla sus habilidades y determinación. Con una narrativa intensa y gráficos impresionantes, el juego presenta un equilibrio cautivador entre la acción y la resolución de acertijos. La evolución de Lara, desde una joven intrépida hasta una superviviente feroz, es el corazón de la historia.",
+  "lanzamiento": "2013-03-05",
+  "plataformas": [
+    "PlayStation 3",
+    "PlayStation 4",
+    "Xbox 360",
+    "Xbox One",
+    "PC"
+  ]
+},
+{
+  "_id": {
+    "$oid": "656166702b77e60fe79b48de"
+  },
+  "nombre": " The Elder Scrolls V: Skyrim",
+  "imagen": "https://media.rawg.io/media/games/7cf/7cfc9220b401b7a300e409e539c9afd5.jpg",
+  "descripcion": "Es un juego de rol de mundo abierto épico. Ambientado en la provincia de Skyrim, te sumerges en un vasto y hermoso mundo lleno de dragones, conflictos políticos y misterios. Como el Sangre de Dragón, un héroe destinado, puedes explorar ciudades, mazmorras y paisajes impresionantes. La libertad es clave: elige tu camino, sé un poderoso mago, un hábil ladrón o un feroz guerrero. Con una historia envolvente y misiones secundarias ricas, el juego ofrece una experiencia inmersiva.",
+  "lanzamiento": "2011-11-11",
+  "plataformas": [
+    "PlayStation 3",
+    "PlayStation 4",
+    "Xbox Series S/X",
+    " Xbox One",
+    " Xbox 360",
+    "PC"
+  ]
+},
+{
+  "_id": {
+    "$oid": "656166702b77e60fe79b48df"
+  },
+  "nombre": "BioShock Infinite",
+  "imagen": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg",
+  "descripcion": "Es un shooter en primera persona que combina una narrativa rica con un entorno visual impresionante. Ambientado en la ciudad flotante de Columbia en 1912, el jugador asume el papel de Booker DeWitt, un ex detective enviado para rescatar a Elizabeth. Con elementos de ciencia ficción y una historia compleja, el juego ofrece una experiencia inmersiva",
+  "lanzamiento": "2013-03-26",
+  "plataformas": [
+    "PlayStation 3",
+    "PlayStation 4",
+    "Xbox 360",
+    "Xbox One",
+    "PC"
+  ]
+},
+{
+  "_id": {
+    "$oid": "656166702b77e60fe79b48e0"
+  },
+  "nombre": "God of War (2018)",
+  "imagen": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg",
+  "descripcion": "Es una aventura épica que reinventa la famosa serie. Siguiendo la historia de Kratos y su hijo Atreus, el juego se desarrolla en un mundo nórdico lleno de mitología y peligros. Combina una narrativa conmovedora con intensos combates y desafíos.",
+  "lanzamiento": "2018-04-20",
+  "plataformas": [
+    "PlayStation 4",
+    "PlayStation 5"
+  ]
+},
+{
+  "_id": {
+    "$oid": "656166702b77e60fe79b48e1"
+  },
+  "nombre": "Football Manager 22 (FM22)",
+  "imagen": "https://media.rawg.io/media/games/541/541952e533e0d1a144017cf95cbbc2e0.jpg",
+  "descripcion": "Football Manager 2022 (FM22) es un simulador de gestión futbolística líder. Ofrece profundidad táctica, gestión de clubes auténtica y realismo en la toma de decisiones. Con un vasto mundo de fútbol virtual, los jugadores pueden dirigir equipos, fichar jugadores y participar en competiciones, creando una experiencia inmersiva y estratégica.",
+  "lanzamiento": "8-11-2021",
+  "plataformas": [
+    "Microsoft Windows",
+    "macOS",
+    "Xbox One",
+    "iOS",
+    "Android",
+    "Nintendo Switch"
+  ]
+},
+{
+  "_id": {
+    "$oid": "656166702b77e60fe79b48e2"
+  },
+  "nombre": "Assasin's Creed Odyssey ",
+  "imagen": "https://media.rawg.io/media/games/c6b/c6bd26767c1053fef2b10bb852943559.jpg",
+  "descripcion": "Assassin's Creed Odyssey es un juego de acción y aventuras ambientado en la Antigua Grecia. Controlas a un mercenario, eliges tu destino y enfrentas decisiones morales cruciales. Con combates emocionantes, exploración de vastos paisajes y una narrativa envolvente, ofrece una experiencia épica inmersiva llena de mitología y secretos históricos.",
+  "lanzamiento": "2-10-2018",
+  "plataformas": [
+    "PlayStation 4",
+    "Xbox One",
+    "Windows",
+    "Nintendo Switch"
+  ]
+},
+{
+  "_id": {
+    "$oid": "656166702b77e60fe79b48e3"
+  },
+  "nombre": "Need for Speed: Underground 2",
+  "imagen": "https://media.rawg.io/media/games/dc6/dc68ca77e06ad993aade7faf645f5ec2.jpg",
+  "descripcion": "Need for Speed: Underground 2 es un icónico juego de carreras callejeras que ofrece una experiencia de conducción intensa. Personaliza y mejora tu coche mientras compites en carreras ilegales en una ciudad expansiva. Sumérgete en una cultura underground, desafía a rivales, y domina las calles en este emocionante juego de carreras.",
+  "lanzamiento": "9-11-2004",
+  "plataformas": [
+    "Game Boy Advance",
+    "GameCube",
+    "PlayStation 2",
+    "Xbox",
+    "Nintendo DS",
+    "Windows",
+    "Movil"
+  ]
+},
+{
+  "_id": {
+    "$oid": "656166702b77e60fe79b48e4"
+  },
+  "nombre": "Smite",
+  "imagen": "https://media.rawg.io/media/games/cc7/cc77035eb972f179f5090ee2a0fabd99.jpg",
+  "descripcion": "SMITE es un juego de campo de batalla en línea (MOBA) que destaca por su temática de mitología, donde dioses y criaturas míticas se enfrentan en intensas batallas. Jugadores eligen entre una amplia variedad de personajes, cada uno con habilidades únicas, y compiten en modos como Conquista y Arena.",
+  "lanzamiento": "25-03-2014",
+  "plataformas": [
+    "Windows",
+    "Mac",
+    " Xbox One",
+    "PlayStation 4",
+    "Nintndo Switch"
+  ]
+},
+{
+  "_id": {
+    "$oid": "656166702b77e60fe79b48e5"
+  },
+  "nombre": "Grand Theft Auto: San Andreas",
+  "imagen": "https://media.rawg.io/media/games/960/960b601d9541cec776c5fa42a00bf6c4.jpg",
+  "descripcion": "Grand Theft Auto: San Andreas es un juego de acción en mundo abierto que sigue la vida del delincuente CJ. Ambientado en la ficticia ciudad de Los Santos, ofrece libertad total para explorar, completar misiones y sumergirse en la cultura del crimen. Con una narrativa rica, presenta diversidad y actividades cautivadoras.",
+  "lanzamiento": "26-10-2004",
+  "plataformas": [
+    "PlayStation 2",
+    "PlayStation 3",
+    "PlayStation 4",
+    "PlayStation 5",
+    "iOS",
+    "Andorid",
+    "Xbox",
+    "Windows",
+    "Nintendo Switch"
+  ]
+},
+{
+  "_id": {
+    "$oid": "656166702b77e60fe79b48e6"
+  },
+  "nombre": "Football Manager 22 (FM22)",
+  "imagen": "https://media.rawg.io/media/games/541/541952e533e0d1a144017cf95cbbc2e0.jpg",
+  "descripcion": "Football Manager 2022 (FM22) es un simulador de gestión futbolística líder. Ofrece profundidad táctica, gestión de clubes auténtica y realismo en la toma de decisiones. Con un vasto mundo de fútbol virtual, los jugadores pueden dirigir equipos, fichar jugadores y participar en competiciones, creando una experiencia inmersiva y estratégica.",
+  "lanzamiento": "8-11-2021",
+  "plataformas": [
+    "Microsoft Windows",
+    "macOS",
+    "Xbox One",
+    "iOS",
+    "Android",
+    "Nintendo Switch"
+  ]
+},
+{
+  "_id": {
+    "$oid": "656166702b77e60fe79b48e7"
+  },
+  "nombre": "Assasin's Creed Odyssey ",
+  "imagen": "https://media.rawg.io/media/games/c6b/c6bd26767c1053fef2b10bb852943559.jpg",
+  "descripcion": "Assassin's Creed Odyssey es un juego de acción y aventuras ambientado en la Antigua Grecia. Controlas a un mercenario, eliges tu destino y enfrentas decisiones morales cruciales. Con combates emocionantes, exploración de vastos paisajes y una narrativa envolvente, ofrece una experiencia épica inmersiva llena de mitología y secretos históricos.",
+  "lanzamiento": "2-10-2018",
+  "plataformas": [
+    "PlayStation 4",
+    "Xbox One",
+    "Windows",
+    "Nintendo Switch"
+  ]
+},
+{
+  "_id": {
+    "$oid": "656166702b77e60fe79b48e8"
+  },
+  "nombre": "Need for Speed: Underground 2",
+  "imagen": "https://media.rawg.io/media/games/dc6/dc68ca77e06ad993aade7faf645f5ec2.jpg",
+  "descripcion": "Need for Speed: Underground 2 es un icónico juego de carreras callejeras que ofrece una experiencia de conducción intensa. Personaliza y mejora tu coche mientras compites en carreras ilegales en una ciudad expansiva. Sumérgete en una cultura underground, desafía a rivales, y domina las calles en este emocionante juego de carreras.",
+  "lanzamiento": "9-11-2004",
+  "plataformas": [
+    "Game Boy Advance",
+    "GameCube",
+    "PlayStation 2",
+    "Xbox",
+    "Nintendo DS",
+    "Windows",
+    "Movil"
+  ]
+},
+{
+  "_id": {
+    "$oid": "656166702b77e60fe79b48e9"
+  },
+  "nombre": "Smite",
+  "imagen": "https://media.rawg.io/media/games/cc7/cc77035eb972f179f5090ee2a0fabd99.jpg",
+  "descripcion": "SMITE es un juego de campo de batalla en línea (MOBA) que destaca por su temática de mitología, donde dioses y criaturas míticas se enfrentan en intensas batallas. Jugadores eligen entre una amplia variedad de personajes, cada uno con habilidades únicas, y compiten en modos como Conquista y Arena.",
+  "lanzamiento": "25-03-2014",
+  "plataformas": [
+    "Windows",
+    "Mac",
+    " Xbox One",
+    "PlayStation 4",
+    "Nintndo Switch"
+  ]
+},
+{
+  "_id": {
+    "$oid": "656166702b77e60fe79b48ea"
+  },
+  "nombre": "Grand Theft Auto: San Andreas",
+  "imagen": "https://media.rawg.io/media/games/960/960b601d9541cec776c5fa42a00bf6c4.jpg",
+  "descripcion": "Grand Theft Auto: San Andreas es un juego de acción en mundo abierto que sigue la vida del delincuente CJ. Ambientado en la ficticia ciudad de Los Santos, ofrece libertad total para explorar, completar misiones y sumergirse en la cultura del crimen. Con una narrativa rica, presenta diversidad y actividades cautivadoras.",
+  "lanzamiento": "26-10-2004",
+  "plataformas": [
+    "PlayStation 2",
+    "PlayStation 3",
+    "PlayStation 4",
+    "PlayStation 5",
+    "iOS",
+    "Andorid",
+    "Xbox",
+    "Windows",
+    "Nintendo Switch"
+  ]
+}]

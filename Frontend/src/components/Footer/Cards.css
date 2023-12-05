@@ -1,0 +1,73 @@
+.home-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container1 {
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.container1 .cards {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px 15px;
+    align-items: center;
+    text-align: center;
+    transition: all 0.25s;
+    margin-left: 0rem;
+}
+
+
+.container1 .cards:hover {
+    transform: translateY(-15px);
+    background: linear-gradient(to right, #2E1760, #2c3e50);
+    box-shadow: 0 12px 20px rgba(248, 248, 248, 0.986);
+}
+
+.container1 .cards img {
+    margin: 10px 0px;
+    border-radius: 20px;
+    width: 80%;
+    height: auto;
+}
+
+.container1 .cards h4 {
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.container1 .cards p {
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.container1 .cards .redes {
+    background-color: #e58e27;
+    border-radius: 15px;
+    height: auto;
+    margin: 20px 5px;
+    width: auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-weight: 600;
+    text-align: center;
+}
+.container1 .cards .redes a {
+    margin: 0 10px;
+}
+.container1 .cards i {
+    color: black;
+    font-size: 60px;
+}
